@@ -1,0 +1,156 @@
+@media screen and (max-width: 1200px) {
+	.tel_header{ 
+	  display: none;
+	  
+	}
+	.image_right{
+	  width: 50%;
+	}
+	.container{
+	  width: 100%;
+	}
+  
+  .projects_item {
+		  margin-right: 0;
+		  margin-left: 60px;
+	  }
+  
+	  .image_right_img {
+		  width: 50%;
+	  }
+  
+	  .image_slayer {
+		  width: 60%;
+	  }
+  
+	  .types_design {
+		  display: flex;
+		  justify-content: space-between;
+		  flex-wrap: wrap;
+	  }
+	  
+	  .realize_fantasy_block {
+		  margin: 0;
+	  }
+  
+	  .aside_left {
+		  margin-left: 10px;
+	  }
+  }
+  @media screen and (max-width: 768px){
+
+	.nav {
+		display: none;
+	}
+
+	.tel_header{
+		display: block;
+	}
+
+	.btn1 {
+		display: none;
+	}
+
+	.bottom-panel {
+		padding: 85px 0 61px;
+	}
+
+	.title_screen {
+		font-size: 23px;
+		line-height: 132%;
+	}
+
+	.title {
+		font-size: 14px;
+        line-height: 135%;
+        margin: 16px 0 50px;
+	}
+
+	.btn1_screen{
+		margin: 0;
+	}
+
+	.btn {
+		width: 100%;
+		margin-bottom: 26px;
+	}
+	
+	.main_projects {
+		background: #131313;
+		padding: 36px 0 1070px;
+       flex-direction: column;
+	}
+	.image_right{
+		width: 100%;
+	}
+
+	.main_nav_projects {
+		display: none;
+	}
+
+	.one_text1{
+		text-align: center;
+		font-size: 22px;
+		line-height: 138%;
+		margin: 0 auto;
+	}
+
+	.projects_text {
+		text-align: center;
+		width: 100%;
+		font-size: 11px;
+		line-height: 158%;
+	}
+	.grid{
+		display: flex;
+    	justify-content: space-around;
+	}
+
+	.image_slayer {
+		display: none;
+	}
+
+	.image_right_img {
+		width: 100%;
+		margin-top: 75px;
+	}
+
+	.online_control{
+    	margin-top: -1018px;
+	}
+
+	.text_work {
+		color: #fff;
+		font-size: 11px;
+		line-height: 169%;
+		margin-bottom: 0;
+	}
+	.form{
+		display: flex;
+		flex-direction: column;
+	}
+
+	
+	.input1{
+		margin-top: 61px;
+	}
+
+
+	.first_checkbox {
+		justify-content: start;
+	}
+
+	
+	.section4_types{
+		padding-bottom: 250px;
+	}
+
+	.types_design {
+		flex-direction: column;
+	}
+	
+	.item_img {
+		max-width: 100%;
+		margin-bottom: 30px;
+		width: 100%;
+	}

@@ -64,6 +64,7 @@ body{
 .btn_1 a{
     text-decoration: none;
 }
+
 /*Главный экран*/
 .main_screen{
     background-image: url(../img/background.jpg);
@@ -626,14 +627,19 @@ hr{
     padding-top: 290px;
     margin: 0;
     text-transform: uppercase;
+    padding-bottom: 36.2px;
 }
 .massange_icon{
     display: flex;
     justify-content: center;
+    margin-right: 33.6px;
 }
 .map{
     display: block;
     margin: 23px auto;
+}
+.contact-info_icon{
+    margin-right: 33.6px;
 }
 /*FOOTER*/
 .header_end{
