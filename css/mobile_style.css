@@ -14,12 +14,7 @@
 		  margin-right: 0;
 		  margin-left: 60px;
 	  }
-  
-	  .image_right_img {
-		  width: 50%;
-	  }
-  
-	  .image_slayer {
+    .image_slayer {
 		  width: 60%;
 	  }
   
@@ -36,6 +31,11 @@
 	  .aside_left {
 		  margin-left: 10px;
 	  }
+  }
+  @media screen and (max-width: 927px){
+	.btn_1{
+		display: none;
+	}
   }
   @media screen and (max-width: 768px){
 
@@ -79,9 +79,10 @@
 		background: #131313;
 		padding: 36px 0 1070px;
        flex-direction: column;
+	   max-width: 100%;
 	}
 	.image_right{
-		width: 100%;
+		max-width: 100%;
 	}
 
 	.main_nav_projects {
@@ -101,18 +102,15 @@
 		font-size: 11px;
 		line-height: 158%;
 	}
-	.grid{
-		display: flex;
-    	justify-content: space-around;
+	.work_video{
+max-width: 100%;
 	}
-
-	.image_slayer {
+	.img_ellipse{
+		max-width: 100%;
+	}
+	
+	.click {
 		display: none;
-	}
-
-	.image_right_img {
-		width: 100%;
-		margin-top: 75px;
 	}
 
 	.online_control{
@@ -126,6 +124,10 @@
 		margin-bottom: 0;
 	}
 	.form{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.form_label{
 		display: flex;
 		flex-direction: column;
 	}
@@ -152,5 +154,26 @@
 	.item_img {
 		max-width: 100%;
 		margin-bottom: 30px;
+		width: 100%;
+	}
+	.image_slayer{
+		width: 100%;
+        margin-top: 75px;
+	}
+	.image_right{
+		width: 100%;
+	}
+	.specialist_text{
+		display: flex;
+		flex-direction: column;
+	}
+	.form_type{
+		width: 100%;
+	}
+	.clients-otzivi{
+		display: flex;
+		flex-direction: column;
+	}
+	.formzakaz{
 		width: 100%;
 	}
