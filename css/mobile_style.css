@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 	.tel_header{ 
 	  display: none;
 	  
@@ -30,6 +30,9 @@
   
 	  .aside_left {
 		  margin-left: 10px;
+	  }
+	  .map{
+		width: 100%;
 	  }
   }
   @media screen and (max-width: 927px){
@@ -170,10 +173,19 @@ max-width: 100%;
 	.form_type{
 		width: 100%;
 	}
+	.form_label{
+		width: 100%;
+	}
 	.clients-otzivi{
 		display: flex;
 		flex-direction: column;
 	}
 	.formzakaz{
 		width: 100%;
+		margin: 0 auto;
 	}
+	.map{
+		width: 100%;
+		display: none;
+	}
+}
