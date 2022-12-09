@@ -230,8 +230,10 @@ border-bottom: 2px solid #E3B873;
 .work_video{
     display: block;
     margin: auto;
-    background: rgba(0, 0, 0, 0.8);
     filter: brightness(50%);
+}
+.line{
+    padding-top: 50px;
 }
 
 .control{
